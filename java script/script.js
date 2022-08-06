@@ -11,7 +11,7 @@ let bmi2 = johnMass2/johnHeight2*johnHeight2**2
 let bmi3 = markMass1/markHeight1*markHeight1**2
 let bmi4 = markMass2/markHeight2*markHeight2**2 
 const best = 179.4
-const bestNew = 'john has a higher body index ${best}'
+const bestNew = `john has a higher body index of ${best}`
 const johnBodyMassIndex = 179.4
 const highestBodyMass = johnBodyMassIndex >= 179.4;
 console.log(highestBodyMass);
@@ -30,7 +30,6 @@ johnBodyMass1()
 function johnBodyMass2() {
     let johnBodyMass2 = bmi2
     console.log(johnBodyMass2)
-    
 }
 johnBodyMass2()
 function markBodyMass1() {
