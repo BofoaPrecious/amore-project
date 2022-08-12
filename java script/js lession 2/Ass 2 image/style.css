@@ -1,0 +1,23 @@
+
+body{
+    background-color: whitesmoke;
+    width: 375px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+.box{
+    background-color: white;
+    text-align: top left;
+    width: 170%;
+    padding: 150px;
+    border-radius: 10px;
+}
+h1{ text-align: top left;}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
